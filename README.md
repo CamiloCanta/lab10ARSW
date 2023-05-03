@@ -53,6 +53,12 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
 6. Cree una nueva Function que resuleva el problema de Fibonacci pero esta vez utilice un enfoque recursivo con memoization. Pruebe la función varias veces, después no haga nada por al menos 5 minutos. Pruebe la función de nuevo con los valores anteriores. ¿Cuál es el comportamiento?.
 
 
+## funciona creada con memorizacion
+
+![image](https://user-images.githubusercontent.com/96396177/235834608-da9d3a23-268c-4358-8b09-0ce1532a3cbd.png)
+
+
+
 
 
 **Preguntas**
@@ -70,15 +76,36 @@ Informe de Pruebas de Rendimiento
 Este informe describe los resultados de las pruebas de rendimiento de una API.
 
 Resumen de Ejecución
+
+
 Iteraciones Ejecutadas: 10
+
+
 Solicitudes Enviadas: 10
+
+
 Solicitudes Fallidas: 0
+
+
 Duración Total de la Prueba: 2 minutos y 6 segundos
+
+
 Rendimiento de las Solicitudes
+
+
 Datos Recibidos: 2.09 MB (aproximadamente)
+
+
 Tiempo de Respuesta Promedio: 12.5 segundos
+
+
 Mínimo: 12.2 segundos
+
+
 Máximo: 13.4 segundos
 
+
 Conclusiones
+
+
 Los resultados de las pruebas indican que la API o aplicación web es capaz de manejar el volumen de solicitudes enviadas durante las pruebas sin fallas. Sin embargo, el tiempo de respuesta promedio de 12.5 segundos puede ser considerado como un punto de mejora.
