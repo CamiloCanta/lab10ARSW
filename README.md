@@ -1,6 +1,8 @@
 ### Escuela Colombiana de Ingeniería
 ### Arquitecturas de Software - ARSW
 
+## Julian Castillo y camilo cantillo
+
 ## Escalamiento en Azure con Maquinas Virtuales, Sacale Sets y Service Plans
 
 ### Dependencias
@@ -41,11 +43,17 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
 
 ![](images/part3/part3-test-function.png)
 
-5. Modifique la coleción de POSTMAN con NEWMAN de tal forma que pueda enviar 10 peticiones concurrentes. Verifique los resultados y presente un informe.
 
 ![image](https://user-images.githubusercontent.com/108955358/234884151-bee6d082-554e-4a57-8c47-42b2a95d42d3.png)
 
+5. Modifique la coleción de POSTMAN con NEWMAN de tal forma que pueda enviar 10 peticiones concurrentes. Verifique los resultados y presente un informe.
+
+
+
 6. Cree una nueva Function que resuleva el problema de Fibonacci pero esta vez utilice un enfoque recursivo con memoization. Pruebe la función varias veces, después no haga nada por al menos 5 minutos. Pruebe la función de nuevo con los valores anteriores. ¿Cuál es el comportamiento?.
+
+
+
 
 **Preguntas**
 
@@ -57,3 +65,20 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
 * ¿Por qué la memoization falla o no funciona de forma correcta?
 * ¿Cómo funciona el sistema de facturación de las Function App?
 * Informe
+
+Informe de Pruebas de Rendimiento
+Este informe describe los resultados de las pruebas de rendimiento de una API.
+
+Resumen de Ejecución
+Iteraciones Ejecutadas: 10
+Solicitudes Enviadas: 10
+Solicitudes Fallidas: 0
+Duración Total de la Prueba: 2 minutos y 6 segundos
+Rendimiento de las Solicitudes
+Datos Recibidos: 2.09 MB (aproximadamente)
+Tiempo de Respuesta Promedio: 12.5 segundos
+Mínimo: 12.2 segundos
+Máximo: 13.4 segundos
+
+Conclusiones
+Los resultados de las pruebas indican que la API o aplicación web es capaz de manejar el volumen de solicitudes enviadas durante las pruebas sin fallas. Sin embargo, el tiempo de respuesta promedio de 12.5 segundos puede ser considerado como un punto de mejora.
