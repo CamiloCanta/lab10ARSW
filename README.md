@@ -64,12 +64,41 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
 **Preguntas**
 
 * ¿Qué es un Azure Function?
+
+
+rta: Un Azure Function es un servicio de Azure que permite ejecutar código en la nube sin necesidad de preocuparse por el mantenimiento de los servidores
+  
 * ¿Qué es serverless?
+
+rta: Serverless es un modelo de cómputo en el que los proveedores de servicios en la nube, como Azure, son los responsables de administrar y escalar la infraestructura subyacente en la que se ejecuta el código.
+
+
 * ¿Qué es el runtime y que implica seleccionarlo al momento de crear el Function App?
+
+es el entorno en el que se ejecutará el código de la función. Al crear una Function App en Azure, se puede seleccionar uno de los runtimes preconfigurados de Azure o crear un runtime personalizado
+
+
 * ¿Por qué es necesario crear un Storage Account de la mano de un Function App?
+
+Es necesario crear un Storage Account (Cuenta de almacenamiento) porque las Function Apps utilizan los servicios de almacenamiento de Azure para almacenar los datos necesarios para el funcionamiento de la aplicación.
+
 * ¿Cuáles son los tipos de planes para un Function App?, ¿En qué se diferencias?, mencione ventajas y desventajas de cada uno de ellos.
+
+Plan Consumo: Este es el plan más común y es adecuado para cargas de uso esporádico o de bajo a medio. Los recursos se escalan automáticamente según sea necesario y solo paga por el tiempo de actividad y el uso de recursos. 
+
+Plan premium: este plan es adecuado para cargas de trabajo de alto uso y ofrece más recursos y funciones que el plan de consumo. La facturación se basa en la tasa de reserva mensual y el uso de recursos
+
+Plan de App Service: este plan se ejecuta en una máquina virtual dedicada, lo que brinda mayor flexibilidad y control sobre la infraestructura subyacente. Es adecuado para cargas de trabajo de alta utilización o aplicaciones que requieren funciones específicas del sistema operativo. La facturación se basa en el precio de la máquina virtual subyacente.
+
+
 * ¿Por qué la memoization falla o no funciona de forma correcta?
+
+La memorización con enfoque recursivo requiere espacio de memoria para almacenar los resultados previamente calculados. Si la cantidad de datos almacenados en la memoria supera el límite disponible, la función puede fallar o no funcionar correctamente.
+
 * ¿Cómo funciona el sistema de facturación de las Function App?
+
+El sistema de facturación de las Function Apps de Azure se basa en el consumo de recursos, como el tiempo de ejecución, la memoria utilizada, el número de solicitudes y el almacenamiento de datos. Cada plan de precios tiene una estructura de tarifas diferente, que puede incluir una tasa de reserva mensual, un límite de tiempo de ejecución y un costo adicional por GB de almacenamiento. La facturación se calcula según la cantidad de recursos consumidos y se muestra en el portal de Azure.
+
 * Informe
 
 Informe de Pruebas de Rendimiento
