@@ -1,7 +1,7 @@
 ### Escuela Colombiana de Ingeniería
 ### Arquitecturas de Software - ARSW
 
-## Julian Castillo y camilo cantillo
+## Julian Castillo y Camilo Cantillo
 
 ## Escalamiento en Azure con Maquinas Virtuales, Sacale Sets y Service Plans
 
